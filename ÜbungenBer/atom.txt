@@ -1,0 +1,7 @@
+highlight-selcted
+intentions
+linter*
+minimap (find&replace)(highlight-selected)
+simple drag drop text
+todo-show
+

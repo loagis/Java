@@ -1,0 +1,20 @@
+public class Student{
+  Student vorname;
+  Student nachname;
+  Student matrikelnr;
+
+  public Student(){
+  }
+
+  public String toString(Student vorname, Student nachname, Student matrikelnr){
+    return vorname+" "+nachname+" "+"("+matrikelnr+")";
+  }
+  public static void main(String[] args){
+    Student willi = new Student("Willi" , "Wichtig" , 900);
+    Student helga = new Student("Helga" , "Eifrig" , 901);
+    String willi = willi.toString();
+    String helga = helga.toString();
+    System.out.println(willi);
+    System.out.println(helga);
+  }
+}
